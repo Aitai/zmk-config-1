@@ -54,7 +54,7 @@ jobs:
       - name: Archive (aitai40)
         uses: actions/upload-artifact@v2
         with:
-          name: nice_nano_nice60
+          name: nice_nano_aitai40
           path: build/zephyr/zmk.uf2
       - name: Archive aitai40 .config
         uses: actions/upload-artifact@v2
